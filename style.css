@@ -1,0 +1,22 @@
+@import url("http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
+/*@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave');*/
+h1 {
+	font-family: 'Sedgwick Ave';
+	background-color: 'yellow';
+}
+
+ul {
+
+}
+
+.movie-list {
+	border:1px solid gray;
+	margin: 10px 10px;
+}
+
+.movie-list-entry {
+	border: 2px solid gray;
+	border-bottom: none;
+	padding: 20px 40px;
+	/*margin: 10px 10px;*/
+}
