@@ -8,6 +8,35 @@ var movies = [
   {title: 'Ex Machina'},
 ];
 
+// create an input class 
+	//this class will receive the state.movies array from App and update it according to user input. Will do nothing if movie is already there. May change data structure to a set
+class Input extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = {input: ''};
+		this.currentInput = this.currentInput.bind(this);
+	}
+
+	currentInput(event) {
+		this.setState({
+			input: event.target.value;
+		});
+
+	}
+		// here is where we will have to push to the movies array
+
+	currentSubmit(event) {
+		this.props....
+	}
+
+	render() {
+		return (	
+			<form onSubmit={this.currentSubmit} >
+				<input placeholder="New Movie..." value={this.state.input} onChange={this.currentInput}>
+			</form>
+		)
+	}
+}
 
 class Search extends React.Component {
 	constructor(props) {
