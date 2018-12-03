@@ -2,6 +2,15 @@ h1 {
 	font-family: 'Sedgwick Ave', cursive;
 }
 
+ul {
+	list-style: none;
+}
 .movie-list {
 	border: 2px solid gray;
+	list-style: none;
+}
+
+.movie-list-entry {
+	border:1px solid gray;
+	padding: 20px 50px;
 }
